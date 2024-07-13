@@ -78,7 +78,16 @@ public class Paste
     {
         //нужен генератор хэшей, как отдельный сервис
     }
+
+    /*public T GetNumber<T>()
+    {
+        
+    }
     
+    public void MyMethod<T>(IType<T> arg)
+    {
+        throw new NotImplementedException();
+    }*/
 }
 
 public enum Category
