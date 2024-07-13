@@ -12,7 +12,7 @@ public class Paste
     private Paste_exposure paste_exposure;
     private int likes;
     private int dislikes;
-    private string url;
+    private string url; //url?
 
     public void SetTitle(string title)
     {
