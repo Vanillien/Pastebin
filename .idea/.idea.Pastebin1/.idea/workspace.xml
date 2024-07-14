@@ -9,10 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="ыыы">
+    <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/PasteClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PasteClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/CommentClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/PasteClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/UserClass.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastebin1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pastebin1.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Classes/PasteClass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Classes/PasteClass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c144b05b4c98420cb5fcd2d65833721640908/54/8b537e4e/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -40,26 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Pastebin1: IIS Express.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Pastebin1: IIS Express.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\shaurma\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\shaurma\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\shaurma\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\shaurma\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\shaurma\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\shaurma\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Pastebin1: IIS Express">
     <configuration name="Pastebin1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Pastebin1.csproj" />
@@ -116,7 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1720815536977</updated>
       <workItem from="1720815538129" duration="6637000" />
-      <workItem from="1720859655092" duration="6887000" />
+      <workItem from="1720859655092" duration="8281000" />
+      <workItem from="1720967620166" duration="4531000" />
     </task>
     <task id="LOCAL-00001" summary="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров.">
       <option name="closed" value="true" />
@@ -142,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720881370254</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сегодня я узнал про унивесральные метотды и побольше про аттрибуты">
+      <option name="closed" value="true" />
+      <created>1720905823592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720905823592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,11 +164,38 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -167,6 +207,7 @@
     <MESSAGE value="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров." />
     <MESSAGE value="Never gonna give you up" />
     <MESSAGE value="ыыы" />
-    <option name="LAST_COMMIT_MESSAGE" value="ыыы" />
+    <MESSAGE value="Сегодня я узнал про унивесральные метотды и побольше про аттрибуты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сегодня я узнал про унивесральные метотды и побольше про аттрибуты" />
   </component>
 </project>
