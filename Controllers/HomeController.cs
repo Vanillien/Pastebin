@@ -7,10 +7,18 @@ namespace Pastebin1.Controllers;
 
 public class HomeController : Controller
 {
-    public static void ChooseTitle()
+    private static Paste _paste = new Paste();
+
+    public static void TransferringFields()
     {
         
     }
+    
+    public static void ChooseTitle(string input)
+    {
+        _paste.title = input;
+    }
+    
     
     //private readonly ILogger<HomeController> _logger;<>
 

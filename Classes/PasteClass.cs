@@ -5,7 +5,7 @@ namespace Pastebin1.Classes;
 
 public class Paste
 {
-    private string title;
+    public string title;
     private string text; 
     private string image;
     private Category category;
@@ -13,9 +13,28 @@ public class Paste
     private Paste_exposure paste_exposure;
     private int likes;
     private int dislikes;
-    private string url; 
+    private string url;
 
+    public Paste()
+    {
+        
+    }
     
+    public Paste(string title, string text, string image, Category category, float paste_expiration, Paste_exposure paste_exposure, string url)
+    {
+        
+    }
+
+    public static string Name()
+    {
+        return "Googendoch";
+    }
+
+    public static void GenerateObject()
+    {
+        Paste Paste.Name = new Paste();
+    }
+
 }
 
 public enum Category
