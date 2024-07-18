@@ -10,10 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Classes/PasteListClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/PasteClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PasteClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/c9e3996173cec136bc2e9f3b4ec45f2a323b1d63/src/Mvc/Mvc.ViewFeatures/src/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Private.CoreLib/src/System/IO/Path.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c144b05b4c98420cb5fcd2d65833721640908/54/8b537e4e/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
@@ -120,7 +121,8 @@
       <workItem from="1720815538129" duration="6637000" />
       <workItem from="1720859655092" duration="8281000" />
       <workItem from="1720967620166" duration="12022000" />
-      <workItem from="1721059958767" duration="8330000" />
+      <workItem from="1721059958767" duration="8835000" />
+      <workItem from="1721153634107" duration="5369000" />
     </task>
     <task id="LOCAL-00001" summary="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров.">
       <option name="closed" value="true" />
@@ -162,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720983578240</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Генерация объектов с разным названием требуется">
+      <option name="closed" value="true" />
+      <created>1721080556559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721080556559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +226,8 @@
     <MESSAGE value="ыыы" />
     <MESSAGE value="Сегодня я узнал про унивесральные метотды и побольше про аттрибуты" />
     <MESSAGE value="ыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы" />
-    <option name="LAST_COMMIT_MESSAGE" value="ыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы" />
+    <MESSAGE value="Генерация объектов с разным названием требуется" />
+    <option name="LAST_COMMIT_MESSAGE" value="Генерация объектов с разным названием требуется" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
