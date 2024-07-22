@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/PasteController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/ChangePasswordController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/EditProfileController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/EditSettingsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/MyAlertsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/MyCommentsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/MyMessagesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/MyPastebinController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/PasteClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PasteClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +130,8 @@
       <workItem from="1721059958767" duration="8835000" />
       <workItem from="1721153634107" duration="5369000" />
       <workItem from="1721323166552" duration="10746000" />
-      <workItem from="1721394230295" duration="4045000" />
+      <workItem from="1721394230295" duration="4372000" />
+      <workItem from="1721599519336" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров.">
       <option name="closed" value="true" />
@@ -180,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721341101670</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Лучше досоставлю план проекта и перепишу по новой. Мне уже лень перечитывать свой код настолько, что проще напиать по новой. Скопирую классы и пустышки контроллеров.">
+      <option name="closed" value="true" />
+      <created>1721426256554</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721426256554</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +253,8 @@
     <MESSAGE value="ыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы" />
     <MESSAGE value="Генерация объектов с разным названием требуется" />
     <MESSAGE value="Какая дичь" />
-    <option name="LAST_COMMIT_MESSAGE" value="Какая дичь" />
+    <MESSAGE value="Лучше досоставлю план проекта и перепишу по новой. Мне уже лень перечитывать свой код настолько, что проще напиать по новой. Скопирую классы и пустышки контроллеров." />
+    <option name="LAST_COMMIT_MESSAGE" value="Лучше досоставлю план проекта и перепишу по новой. Мне уже лень перечитывать свой код настолько, что проще напиать по новой. Скопирую классы и пустышки контроллеров." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

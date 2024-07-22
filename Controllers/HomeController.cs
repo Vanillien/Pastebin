@@ -7,85 +7,17 @@ namespace Pastebin1.Controllers;
 
 public class HomeController : Controller
 {
-    private static Paste _paste = new Paste();
+    public static Paste _paste = new Paste();
 
-    public static void TransferringFields()
+    public static void ConfirmCreation()
     {
-        //этот метод передаст поля объекта _paste в объект с уникальным идентификатором, что и позволит после хранить объект в базе данных
+        PasteList.AddObject();
+        PasteList._paste_list[0].title = _paste.title; //нужен последний элемент списка. Попытаюсь оформить метод, который переберет массив и вернет наибольший индекс
     }
     
     public static void ChooseTitle(string input)
     {
         _paste.title = input;
     }
-    
-    /*public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }
-    
-    public static void Choose(object input)
-    {
-        _paste.field = input;
-    }*/ //эти хрени для установки полей я напишу позже ибо щас мне лень 
-    
-    
-    
-    //private readonly ILogger<HomeController> _logger;<>
-
-    /*public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }*/ 
     
 }

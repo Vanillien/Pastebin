@@ -25,9 +25,9 @@ public class Paste
         
     }
     
-    public Paste(string title, string text, string image, Category category, float paste_expiration, Paste_exposure paste_exposure, string url, string password)
+    public Paste(string title)
     {
-        //потом напишу
+        //потом напишу основной конструктор
     }
     
 }
