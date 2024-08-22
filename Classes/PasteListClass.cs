@@ -2,16 +2,16 @@ namespace Pastebin1.Classes;
 
 public class PasteList
 {
-    public static List<Paste> _paste_list = [];
+    public static List<Paste> _pasteList = [];
 
-    public static void AddObject()
+    public static void AddObj()
     {
-        PasteList._paste_list.Add(new Paste());
+        PasteList._pasteList.Add(new Paste());
     }
 
-    public static Paste FindLastObject()
+    public static Paste GetLastObj()
     {
-        return _paste_list.Last();
+        return _pasteList.Last();
     }
     
     
