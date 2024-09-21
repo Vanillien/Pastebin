@@ -11,13 +11,12 @@ public class HomeController : Controller
 
     public static void ConfirmCreation() 
     {
-        PasteList.AddObj();
         
     }
     
     public static void ChooseTitle(string input)
     {
-        //_paste.title = input;
+        
     }
     
 }

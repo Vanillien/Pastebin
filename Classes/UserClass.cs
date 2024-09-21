@@ -10,9 +10,11 @@ public class User
     //public bool acount_type; //enum будет
     //public string website_url; 
     //public string avatar; //ссылка на аватар
-}
 
-public class Dependency
-{
-    public string field1;
+    public User(string username, string email, string password)
+    {
+        this.Username = username;
+        this.Email = email;
+        this.Password = password;
+    }
 }

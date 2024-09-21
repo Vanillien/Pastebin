@@ -9,10 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="u gay">
+    <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Classes/Configurations/UserConfiguration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/ApplicationDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ApplicationDBContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/PasteListClass.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/UserClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/UserClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Classes/ApplicationDBContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Classes/PasteClass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/c9e3996173cec136bc2e9f3b4ec45f2a323b1d63/src/Mvc/Mvc.ViewFeatures/src/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Linq/src/System/Linq/Last.cs" root0="FORCE_HIGHLIGHTING" />
@@ -145,7 +150,8 @@
       <workItem from="1726339541781" duration="777000" />
       <workItem from="1726857244760" duration="1148000" />
       <workItem from="1726908361117" duration="255000" />
-      <workItem from="1726927440302" duration="7025000" />
+      <workItem from="1726927440302" duration="9559000" />
+      <workItem from="1726950437844" duration="4568000" />
     </task>
     <task id="LOCAL-00001" summary="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров.">
       <option name="closed" value="true" />
@@ -259,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726928925347</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="21.09">
+      <option name="closed" value="true" />
+      <created>1726948501627</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726948501627</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +336,8 @@
     <MESSAGE value="For Andreygay" />
     <MESSAGE value="For gays" />
     <MESSAGE value="u gay" />
-    <option name="LAST_COMMIT_MESSAGE" value="u gay" />
+    <MESSAGE value="21.09" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.09" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
