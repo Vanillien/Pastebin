@@ -8,7 +8,7 @@ namespace Pastebin1.Classes;
 
 public class Paste
 {
-    
+    //это пока не трогаем...
 }
 
     
