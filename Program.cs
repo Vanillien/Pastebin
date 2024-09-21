@@ -1,7 +1,20 @@
+using Microsoft.AspNetCore.Connections;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Pastebin1.Classes;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration["DefaultConnection"];
+
+builder.Services.AddDbContext<ApplicationDBContext>(options => //выполняет функционал OnConfiguring()
+{
+    options.LogTo(Console.WriteLine);
+        
+    options.UseNpgsql(connectionString);
+});
 
 var app = builder.Build();
 

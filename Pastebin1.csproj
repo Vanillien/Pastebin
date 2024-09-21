@@ -7,7 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="Interfaces\" />
       <Folder Include="Models\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-rc.1.24451.1" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.0-rc.1" />
     </ItemGroup>
 
 </Project>

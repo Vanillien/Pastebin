@@ -17,7 +17,7 @@ public class HomeController : Controller
     
     public static void ChooseTitle(string input)
     {
-        _paste.title = input;
+        //_paste.title = input;
     }
     
 }

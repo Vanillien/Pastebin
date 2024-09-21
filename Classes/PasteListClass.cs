@@ -2,7 +2,7 @@ namespace Pastebin1.Classes;
 
 public class PasteList
 {
-    public static List<Paste> _pasteList = [];
+    public static List<Paste> _pasteList = []; //переделать в словарик
 
     public static void AddObj()
     {

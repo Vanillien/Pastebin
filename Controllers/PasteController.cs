@@ -7,6 +7,6 @@ public class PasteController : Controller
 {
     public static void AddLike()
     {
-        HomeController._paste.likes++;
+        //HomeController._paste.likes++;
     }
 }

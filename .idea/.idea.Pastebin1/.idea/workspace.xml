@@ -10,15 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Classes/ApplicationDBContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/CommentClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/CommentClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/PasteClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PasteClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/PasteListClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PasteListClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/UserClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/UserClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/PasteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PasteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastebin1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pastebin1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +39,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Private.CoreLib/src/System/IO/Path.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Private.CoreLib/src/System/Threading/Tasks/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Hosting/src/Host.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c144b05b4c98420cb5fcd2d65833721640908/54/8b537e4e/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f8f51eb42dce45889064440463743cec1de8b0/4c/78d42cdd/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -134,7 +145,13 @@
       <workItem from="1722175965410" duration="223000" />
       <workItem from="1724252802710" duration="411000" />
       <workItem from="1724273670355" duration="3072000" />
-      <workItem from="1724349224842" duration="4456000" />
+      <workItem from="1724349224842" duration="7095000" />
+      <workItem from="1724420250209" duration="79000" />
+      <workItem from="1724420687998" duration="244000" />
+      <workItem from="1726257339224" duration="1331000" />
+      <workItem from="1726339541781" duration="777000" />
+      <workItem from="1726857244760" duration="1148000" />
+      <workItem from="1726908361117" duration="255000" />
     </task>
     <task id="LOCAL-00001" summary="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров.">
       <option name="closed" value="true" />
@@ -208,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721688589661</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="для stef">
+      <option name="closed" value="true" />
+      <created>1724361002650</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724361002650</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +291,8 @@
     <MESSAGE value="Какая дичь" />
     <MESSAGE value="Лучше досоставлю план проекта и перепишу по новой. Мне уже лень перечитывать свой код настолько, что проще напиать по новой. Скопирую классы и пустышки контроллеров." />
     <MESSAGE value="Щищ, я овощ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Щищ, я овощ" />
+    <MESSAGE value="для stef" />
+    <option name="LAST_COMMIT_MESSAGE" value="для stef" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
