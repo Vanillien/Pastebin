@@ -4,15 +4,13 @@ using Pastebin1.Classes.Configurations;
 
 namespace Pastebin1.Classes;
 
-public class ApplicationDBContext : DbContext
+public class ApplicationDbContext : DbContext
 {
     public DbSet<User> Users { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        //optionsBuilder.LogTo(Console.WriteLine);
         
-        //optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=rr7kyy00;Port=5432");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -20,7 +18,7 @@ public class ApplicationDBContext : DbContext
         modelBuilder.ApplyConfiguration(new UserConfiguration());
     }
 
-    public ApplicationDBContext()
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> wawa)
     {
         Database.EnsureCreated();
     }

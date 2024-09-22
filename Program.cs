@@ -7,13 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-var connectionString = builder.Configuration["DefaultConnection"];
-
-builder.Services.AddDbContext<ApplicationDBContext>(options => //выполняетъ функционалъ OnConfiguring()
+builder.Services.AddDbContext<ApplicationDbContext>(options => //выполняетъ функционалъ OnConfiguring()
 {
     options.LogTo(Console.WriteLine);
         
-    options.UseNpgsql(connectionString);
+    options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=Pastebin;User Id=postgres;Password=password");
 });
 
 /*
