@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/ApplicationDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ApplicationDBContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="wawawuwa" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +23,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Classes/ApplicationDBContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/c9e3996173cec136bc2e9f3b4ec45f2a323b1d63/src/Mvc/Mvc.ViewFeatures/src/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/740edc6f5e40ba591f8e4f9a886e02abe5668c89/src/EFCore/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -157,7 +152,7 @@
       <workItem from="1726950437844" duration="9701000" />
       <workItem from="1727015019466" duration="725000" />
       <workItem from="1727032108853" duration="5038000" />
-      <workItem from="1727089900302" duration="1575000" />
+      <workItem from="1727089900302" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров.">
       <option name="closed" value="true" />
@@ -303,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727037016555</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="wawawuwa">
+      <option name="closed" value="true" />
+      <created>1727108467717</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1727108467717</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +373,8 @@
     <MESSAGE value="22.09 2:28" />
     <MESSAGE value="22.09 22:40" />
     <MESSAGE value="22.09 23:30" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.09 23:30" />
+    <MESSAGE value="wawawuwa" />
+    <option name="LAST_COMMIT_MESSAGE" value="wawawuwa" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
