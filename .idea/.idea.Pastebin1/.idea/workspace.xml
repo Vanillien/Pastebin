@@ -10,13 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31222c25-e0d1-4548-bc14-e5843df84749" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interfaces/IPaste.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/IUser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastebin1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/PasteClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PasteClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/UserClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/UserClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pastebin1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pastebin1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/ApplicationDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ApplicationDBContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +26,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Classes/ApplicationDBContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Documents/Pastebin_01/Pastebin1/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/c9e3996173cec136bc2e9f3b4ec45f2a323b1d63/src/Mvc/Mvc.ViewFeatures/src/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/740edc6f5e40ba591f8e4f9a886e02abe5668c89/src/EFCore/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/740edc6f5e40ba591f8e4f9a886e02abe5668c89/src/EFCore/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/efcore/740edc6f5e40ba591f8e4f9a886e02abe5668c89/src/EFCore/Extensions/EntityFrameworkServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Linq/src/System/Linq/Last.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Private.CoreLib/src/System/IO/Path.cs" root0="SKIP_HIGHLIGHTING" />
@@ -55,7 +55,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Pastebin1: IIS Express.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.Pastebin1: IIS Express.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -67,6 +67,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
     &quot;rider.external.source.directories&quot;: [
       &quot;C:\\Users\\shaurma\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
       &quot;C:\\Users\\shaurma\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
@@ -153,7 +156,8 @@
       <workItem from="1726927440302" duration="9559000" />
       <workItem from="1726950437844" duration="9701000" />
       <workItem from="1727015019466" duration="725000" />
-      <workItem from="1727032108853" duration="1834000" />
+      <workItem from="1727032108853" duration="5038000" />
+      <workItem from="1727089900302" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="Надо написать контроллеры, а после надо сделать модели для взаимодействия классов и их экземпляров.">
       <option name="closed" value="true" />
@@ -283,7 +287,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726961302566</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="22.09 22:40">
+      <option name="closed" value="true" />
+      <created>1727034064161</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727034064161</updated>
+    </task>
+    <task id="LOCAL-00018" summary="22.09 23:30">
+      <option name="closed" value="true" />
+      <created>1727037016555</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727037016555</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +368,9 @@
     <MESSAGE value="u gay" />
     <MESSAGE value="21.09" />
     <MESSAGE value="22.09 2:28" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.09 2:28" />
+    <MESSAGE value="22.09 22:40" />
+    <MESSAGE value="22.09 23:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.09 23:30" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

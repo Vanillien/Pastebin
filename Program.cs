@@ -11,11 +11,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => //выполня�
 {
     options.LogTo(Console.WriteLine);
         
-    options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=Pastebin;User Id=postgres;Password=password");
+    options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=Pastebin;User Id=postgres;Password=rr7kyy00");
 });
 
-/*
-using (ApplicationDBContext dbContext = new ApplicationDBContext())
+
+using (ApplicationDbContext dbContext = new ApplicationDbContext())
 {
     User user1 = new User("Googendochen", "pupik123@gmail.com", "12345678");
     User user2 = new User("Scheubengoogenschmeck", "popkokusatel999@gmail.com", "password");
@@ -24,11 +24,11 @@ using (ApplicationDBContext dbContext = new ApplicationDBContext())
     dbContext.SaveChanges(); //сохраняемъ изменения
 }
 
-using (ApplicationDBContext dbContext = new ApplicationDBContext())
+using (ApplicationDbContext dbContext = new ApplicationDbContext())
 {
     var userList = dbContext.Users.ToList(); //сей методъ возвращаетъ списокъ Users изъ базы данныхъ
 }
-*/
+
 
 var app = builder.Build();
 

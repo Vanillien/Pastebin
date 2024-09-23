@@ -22,4 +22,5 @@ public class ApplicationDbContext : DbContext
     {
         Database.EnsureCreated();
     }
+    
 }
